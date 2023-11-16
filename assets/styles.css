@@ -1,0 +1,184 @@
+html, body {
+    background-color: #ebeae7;
+}
+
+.webTitle {
+    text-align: center;
+    padding: 20px 0;
+}
+
+ul { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    color: red;
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: black;  
+    }
+    .custom-left-column {
+        padding: 10px;
+    }
+    header{
+        background-color: #b7c6ad;
+        background-size: cover;
+    }
+    .header-row {
+        background-color: #b7c6ad;
+        background-size: cover;
+        width: 100%;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    #citySearch {
+        font-size: 12px;
+        margin-left: 15px;
+        max-width: 225px;
+    }
+
+    /*Main City section*/
+    #selectedCity {
+        background-color: #ccdcc1;
+        color: #545454;
+        margin-left: 15px;
+        border: 1px solid #545454;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+    }
+    
+    /*5-day section*/
+    #forecast {
+        margin-left: 260px;
+        margin-top: 15px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    .forecast-day {
+        text-align:left;
+        margin: 10px;
+        border: 1px solid #545454;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+        padding: 40px;
+        background-color: #97a697;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+}
+
+/* Styles for medium screens (tablets) */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: black;  
+    }
+    header{
+        background-color: #b7c6ad;
+        background-size: cover;
+    }
+    .header-row {
+        background-color: #b7c6ad;
+        background-size: cover;
+        width: 100%;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    #searchHistory,
+    #citySearch {
+        font-size: 12px;
+        margin-left: 15px;
+        max-width: 200px;
+    }
+    /*Main City section*/
+    #selectedCity {
+        background-color: #ccdcc1;
+        color: #545454;
+        margin-left: 15px;
+        border: 1px solid #545454;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+    }
+    /*5-day section*/
+    #forecast {
+        margin-left: 260px;
+        margin-top: 15px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .forecast-day {
+        text-align:left;
+        margin: 15px;
+        padding: 5px;
+        border: 1px solid #545454;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+        background-color: #97a697;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+}
+
+
+/* Styles for small screens (mobile) */
+@media screen and (max-width: 767px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: black;  
+    }
+    header{
+        background-color: #b7c6ad;
+        background-size: cover;
+    }
+    .header-row {
+        background-color: #b7c6ad;
+        width: 100%;
+        padding: 20px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    #citySearch {
+        font-size: 12px;
+    }
+    /*Main City section*/
+    #selectedCity {
+        margin-top: 25px;
+        background-color: #ccdcc1;
+        color: #545454;
+        text-align: center;
+        border: 1px solid #545454;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    }
+    /*5-day section*/
+    #forecast {
+        text-align: center;
+        margin-top: 25px;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-left: 38px;
+    }
+    .forecast-day {
+        text-align:left;
+        margin-left: 5px;
+        border: 1px solid #545454;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+        background-color: #97a697;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+}
