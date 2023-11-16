@@ -17,6 +17,7 @@ In order to deploy the application and search for weather, open the index.html f
 
 ## Usage Information
 To use the application, you will need to enter the name of the city you are searching for and press the "Search" button.
+When entering a new search, the previously searched city will be displayed in a list below the search bar with a link to return to the forecast for that city. Up to five cities will be displayed at a time.
 
 ## Contribution Guidelines
 This code was created in order to complete a challenge illustrating the use of HTML, JavaScript, and a weather API. It utilizes the OpenWeather API (https://api.openweathermap.org/data/2.5/forecast).
